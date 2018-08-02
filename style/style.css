@@ -1,0 +1,315 @@
+/* GLOBAL */
+
+html{height: 100%;}
+
+body
+{ font-family: arial, helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-size: .68em;
+  background-color:#e7e6db;
+}
+
+p
+{ margin: 0px;
+  padding: 0px 0px 16px 0px;
+  line-height: 1.4em;
+}
+
+h1
+{ font-family: arial, sans-serif;
+  letter-spacing: .1em;
+  display:block;
+}
+
+h2
+{ margin: 0px;
+  padding: 0px 0px 4px 0px;
+  font-size: 100%;
+}
+
+img{border: 0px;}
+
+a{outline: none;
+cursor:pointer;}
+
+
+.pageWrap{
+	border: 10px solid white;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.page{
+	background-color: #EBF6FD;
+	border: 1.5px solid black;
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../images/pageWrapBack.jpg);
+	background-repeat:repeat-y;
+	background-position:top left;
+}
+
+.header{
+background-color:#005dab;
+height:140px;
+width:auto;
+}
+
+.header a{
+color:#FFFFFF;
+}
+
+.header img{
+bottom:0;
+margin-top:5px;
+margin-bottom: 0px;
+}
+
+.header a{
+margin-left: 8px;
+text-decoration:underline;
+}
+
+
+.footer{
+background-color:#005dab;
+height:34px;
+}
+
+.footer p{color:#ffffff;
+text-align:right;
+margin-right:8px;
+}
+
+/*NAVIGATION FORMATTING*/
+.nav{
+/*background-color:#ebf6fd;*/
+width:180px;
+float:left;
+height:auto;
+}
+
+.nav table{
+	margin-top:20px;
+	padding:5px;
+	width:177px;
+
+}
+
+.nav tr{
+height:35px;
+font-family: helvetica,verdana,arial,sans-serif;
+	font-size:15px;
+	color:#234991;
+
+
+}
+
+td.menuon {
+	font-family: helvetica,verdana,arial,sans-serif;
+	font-size:15px;
+	background-color:#005dab;
+	color:#FFFFFF; 
+	width:160px;
+}
+
+td.menuon a {
+	font-family: helvetica,verdana,arial,sans-serif;
+	font-size:15px;
+	color:#FFFFFF;
+	text-decoration:none;
+	width:160px;
+}
+
+td.menuoff {
+	font-family: helvetica,verdana,arial,sans-serif;
+	font-size:15px;
+	background-color:#ebf6fd;
+	color:#234991;
+	width:160px;
+}
+
+td.menuoff a {
+	font-family: helvetica,verdana,arial,sans-serif;
+	font-size:15px;
+	color:#234991;
+	text-decoration:none;
+	width:160px;
+}
+
+.nav tr{
+cursor:pointer;
+}
+
+/*MAIN CONTENT FORMATTING*/
+.mc{
+background-color:#FFFFFF;
+width:560px;
+height:auto;
+float:left;
+}
+
+.mc img{
+margin-top:20px;
+margin-left:20px;
+margin-bottom:20px;
+float:left;
+}
+
+.mc h4{
+float:left;
+margin-left: 25px;
+font-size:25px;
+}
+
+.mc p{
+float:left;
+margin-left: 28px;
+font-size:12px;
+}
+
+.mc.research p {  /* new */
+width: 505px;
+}
+
+p.pdfLink{
+font-size:11px;
+color:#000000;
+text-align:left;
+}
+
+p.pdfLink a{
+color:#000000;
+font-size:11px;
+}
+
+.mc h1{
+font-size:18px;
+text-align:left;
+margin-left:15px;
+}
+
+.mc ul{
+margin-left:15px;
+font-size:15px;
+}
+
+.mc li{
+width:450px;
+margin-top:10px;
+}
+
+.mc li a{
+text-decoration:underline;
+color:#000000;
+font-size:13px;
+}
+
+.mc li p{
+font-size:13px;
+margin-top:5px;
+}
+
+#abstractLink{
+font-size:13px;
+}
+
+p.abstractInfo{
+text-align:justify !important;
+font-size:13px;
+margin-left:10px;
+}
+
+#paperLink{
+font-weight:bold;
+font-size:15px;
+text-align:left !important;}
+
+.paperTitle{
+font-weight:bold;
+font-size:15px;
+text-align:left !important;}
+
+.paperInfo{
+font-size:13px;}
+
+.mc h3{
+font-size:13px;
+magin-top:0px;
+text-decoration:none;}
+
+p.teachingHeadline
+{
+font-size:14px;
+font-weight:bold;
+}
+
+ul.break
+{
+clear:left;}
+
+li.teachingLi{
+font-size:13px;
+}
+
+li.noBullet{
+list-style:none;
+}
+
+li div{
+min-height:25px;
+}
+
+/*RIGHT INFO FORMATTING*/
+.rightInfo{
+/*background-image:url(../images/rightInfoBack.jpg);*/
+/*background-color:#cfcaba;
+background-repeat:repeat-y;
+background-position:top right;*/
+width:220px;
+float:left;
+height:100%;
+}
+
+.rightInfo img{
+display:block;
+margin-left:auto;
+margin-right:auto;
+margin-top:2px;
+margin-bottom:2px;
+}
+
+.rightInfo H4{
+/*margin-left:20px;*/
+text-align:center;
+font-size:18px;
+color:#96271d;
+font-family:Palatino;
+font-weight:normal !important;
+
+}
+
+span.nameHeadline{
+text-align:center;
+font-size:18px;
+color:#96271d;
+font-family:Palatino;
+font-weight:normal !important;
+
+}
+
+.rightInfo p{
+margin-left:auto;
+margin-right:auto;
+margin-top:20px;
+width:15em;
+font-size:12px;
+}
+
+.rightInfo a{
+color:#000000;
+text-decoration:underline;
+}
